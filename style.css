@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+/* Global Styles */
+
+:root {
+    --orange-color: hsl(31, 77%, 52%);
+    --cyan-color: hsl(184, 100%, 22%);
+    --dark-cyan-color: hsl(179, 100%, 13%);
+
+    --transparent-white-color: hsla(0, 0%, 100%, 0.75);
+    --light-gray-color: hsl(0, 0%, 95%);
+
+    --primary-font: 'Lexend Deca', sans-serif;
+    --accent-font: 'Big Shoulders Display', cursive;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-size: 15px;
+    line-height: 1.4;
+}
+
+/* Utilities */
+
+.orange-bg {
+    background-color: var(--orange-color);
+}
+
+.cyan-bg {
+    background-color: var(--cyan-color);
+}
+
+.dark-cyan-bg {
+    background-color: var(--dark-cyan-color);
+}
+
+/* Mobile Styles */
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    margin: 0 25px;
+    padding: 50px;
+}
+
+.card:nth-child(1) {
+    margin-top: 60px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.card:nth-child(3) {
+    margin-bottom: 60px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.card h2 {
+    margin-top: 30px;
+    font-size: 2em;
+    color: var(--light-gray-color);
+    font-family: var(--accent-font);
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.card article {
+    margin-top: 30px;
+    color: var(--transparent-white-color);
+    font-family: var(--primary-font);
+    font-weight: 400;
+}
+
+.btn {
+    border: 1px solid var(--light-gray-color);
+    display: inline-block;
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color: var(--light-gray-color);
+    cursor: pointer;
+    margin-top: 30px;
+    color: var(--light-gray-color);
+    font-family: var(--primary-font);
+    font-weight: 400;
+}
+
+.btn-sedans {
+    color: var(--orange-color);
+}
+
+/* .btn-sedans:hover {
+    color: var(--light-gray-color);
+    background-color: var(--orange-color);
+} */
+
+.btn-suv {
+    color: var(--cyan-color);
+}
+
+.btn-luxury {
+    color: var(--dark-cyan-color);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
