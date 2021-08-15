@@ -88,9 +88,9 @@ body {
     background-color: var(--light-gray-color);
     cursor: pointer;
     margin-top: 30px;
-    color: var(--light-gray-color);
     font-family: var(--primary-font);
     font-weight: 400;
+    text-decoration: none;
 }
 
 .btn-sedans {
@@ -104,7 +104,6 @@ body {
 .btn-luxury {
     color: var(--dark-cyan-color);
 }
-
 
 /* Desktop Styles */
 @media only screen and (min-width: 1440px) {
@@ -143,8 +142,8 @@ body {
     }
 
     .btn-sedans:hover {
-        color: var(--light-gray-color);
         background-color: var(--orange-color);
+        color: var(--light-gray-color);
     }
 
     .btn-suv:hover {
@@ -156,7 +155,6 @@ body {
         color: var(--light-gray-color);
         background-color: var(--dark-cyan-color);
     }
-
 }
 
 .attribution {
