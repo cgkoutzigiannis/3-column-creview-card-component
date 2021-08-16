@@ -32,7 +32,6 @@ You can see the desktop and mobile layout screenshots here:
 
 ### Links
 
-- Solution URL: [https://github.com/cgkoutzigiannis/3-column-creview-card-component](hhttps://github.com/cgkoutzigiannis/3-column-creview-card-component)
 - Live Site URL: [https://nostalgic-goldwasser-1237cf.netlify.app/](https://nostalgic-goldwasser-1237cf.netlify.app/)
 
 ## My process
